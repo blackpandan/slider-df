@@ -1,4 +1,5 @@
-function slider(elements, hiddenClass) {
+function slider(hiddenClass = "show-df") {
+  let elements = document.querySelectorAll(".hidden-df");
   let head = document.getElementsByTagName("head")[0];
 
   let style = document.createElement("style");
@@ -11,7 +12,7 @@ function slider(elements, hiddenClass) {
 	transition: all 1s;
 }
 
-.show-df{
+.${hiddenClass}{
 	opacity: 1;
 	filter: blur(0);
 	transform: translateX(0);

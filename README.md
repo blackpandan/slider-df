@@ -24,4 +24,10 @@ import slider from "slider-df";
 slider();
 ```
 
+
+https://user-images.githubusercontent.com/66978421/215296297-cf4bdc62-36f3-4cf9-aa4a-e7f0d946dc1f.mp4
+
+
+
+
 - new features will continue to be added

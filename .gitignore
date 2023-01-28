@@ -1,4 +1,5 @@
 # Logs
+.wakatime-project
 logs
 *.log
 npm-debug.log*

@@ -1,0 +1,17 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+	overflow: hidden;
+}
+
+body{
+	width: min(100%, 100vw);
+	height: 100vh;
+	overflow-y: hidden;
+	overflow-x: scroll;
+}

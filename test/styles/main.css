@@ -12,8 +12,7 @@ html {
 body {
   width: min(100%, 100vw);
   height: 100vh;
-  overflow-y: hidden;
-  overflow-x: scroll;
+  overflow: hidden;
 }
 
 .main {
@@ -21,12 +20,16 @@ body {
   flex-flow: row nowrap;
   height: 100vh;
   overflow-y: hidden;
-  width: fit-content;
+  overflow-x: hidden;
+  width: 100vw;
   padding: 0 0 0 0;
+  white-space: nowrap;
+  scroll-snap-type: x mandatory;
 }
 .main section {
-  min-height: 100vh;
-  width: 100vw;
+  height: 100vh;
+  min-width: 100vw;
+  scroll-snap-align: start;
 }
 .main .home {
   display: flex;
@@ -37,4 +40,16 @@ body {
 .main .home__message-text {
   font-size: 3em;
   text-transform: capitalize;
+}
+.main .examples {
+  background-color: #0a0a0a;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.main .examples__example-text {
+  font-size: 3em;
+  text-transform: capitalize;
+  color: #fafafa;
 }

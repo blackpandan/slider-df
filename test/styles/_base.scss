@@ -12,6 +12,6 @@ html {
 body{
 	width: min(100%, 100vw);
 	height: 100vh;
-	overflow-y: hidden;
-	overflow-x: scroll;
+	overflow: hidden;
 }
+

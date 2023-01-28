@@ -13,13 +13,15 @@ a slider package to help create animations on scoll
 - example
 
 html
-`<p class="hidden-df">Hello</p>
-`
+```html
+<p class="hidden-df">Hello</p>
+```
 
 javascript
-`import slider from "slider-df";
+```javascript
+import slider from "slider-df";
 
 slider();
-`
+```
 
 - new features will continue to be added

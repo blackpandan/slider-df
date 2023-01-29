@@ -1,0 +1,8 @@
+{
+	"rules": {
+		"valid-jsdoc":"warn",
+		"semi": ["error", "always"],
+		"quotes":["error", "double"]
+	},
+	"root": true
+}

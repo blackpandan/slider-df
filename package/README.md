@@ -24,4 +24,21 @@ import slider from "slider-df";
 slider();
 ```
 
-- new features will continue to be added
+- additionals options are aso provided to change the duration and filter of the element when animating
+
+javascript
+```javascript
+import slider from "slider-df";
+
+slider(
+{
+	options: {
+		duration: 2, // in seconds
+		filter: 5, // in pixels
+	}
+}
+);
+
+```
+
+- new features will continue to be added, suggestions are welcome `slider-df@devfate.com`

@@ -1,3 +1,8 @@
 import slider from "slider-df";
 
-slider();
+slider({
+  options: {
+    duration: 1.5,
+    filter: 2,
+  },
+});
